@@ -207,13 +207,12 @@ body {
     max-width: 300px;
     position: relative;
     animation: ngeong 1.5s infinite;
-    left: 500px;
 }
 
 @keyframes ngeong {
-    27% {left: 500px;}
-    74% {left: -50px;}
-    99% {left: 500px;}
+    27% {top: 0px;}
+    74% {top: -20px;}
+    99% {top: 0px;}
   }
 
 .cta-desc {
